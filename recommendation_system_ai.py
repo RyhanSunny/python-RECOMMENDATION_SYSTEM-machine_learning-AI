@@ -10,7 +10,7 @@ data = fetch_movielens(min_rating = 4.0) # CSV file
 
 # print-training and testing
 print(repr(data['print']))
-print(repr(data('test')))
+print(repr(data['test']))
 
 # our fetch_movielens method splits our data set into 'training' and 'testing' data
 # and we can retrieve each by using the 'train' and 'test'strings as KEYS (dictionary keys)
