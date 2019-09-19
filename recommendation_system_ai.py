@@ -9,15 +9,24 @@ data = fetch_movielens(min_rating = 4.0) # CSV file
 # our CSV file and store it in our data variable as a DICTIONARY
 
 # print-training and testing
-print(repr(data['print']))
-print(repr(data['test']))
+print(repr(data["print"]))
+print(repr(data["test"]))
 
 # our fetch_movielens method splits our data set into 'training' and 'testing' data
 # and we can retrieve each by using the 'train' and 'test'strings as KEYS (dictionary keys)
 # we printed out both above
 
 # todo: install lightfm again, run the code, store our model in a variable
-#
+
+# RUN ATTEMPT 1
+# ERROR: LightFM was compiled without OpenMP support.
+# POSSIBLE CAUSE: WINDOWS OS AND MULTI-THREADING
+# POSSIBLE SOLUTION: USING DOCKER (?)
+
+
+
+
+
 
 
 
